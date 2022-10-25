@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="bundle.js" defer></script>
+    
+    <title>Weather App</title>
+</head>
+<body>
+  <div id="content" class="wrapper">
+    <header class="header">Weather App</header>
+    <main class="main">
+      <form>
+        <input type="text" value="Enter City" id="cityInput" onfocus="this.value=''">
+        <input type="button" value="Search" id="button" >
+      </form>
+      <div id="weather-box">
+        <div id="location">
+          <div id="city"></div>
+          <div id="country"></div>
+        </div>
+        <div id="degree">
+          <div>&#176</div>
+          <div id="C">C</div>
+          <div>|</div>
+          <div id="F">F</div>
+        </div>
+        <div id="temperature"></div>
+        <div id="description"></div>
+        <div id="feelsLike">Feels like: </div>
+        <div id="minTemp">Min temp: </div>
+        <div id="maxTemp">Max temp:</div>
+        <div id="humidity">Humidity:</div>
+        <div id="pressure">Pressure:</div>
+        
+      </div>
+    </main>
+
+    <footer class="footer">&copy 2022 arnelsr</footer>
+  </div>
+</body>
+</html>
